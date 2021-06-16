@@ -26,3 +26,15 @@ Implementation
 We're going to create a SingleObject class. SingleObject class have its constructor as private and have a static instance of itself.
 
 SingleObject class provides a static method to get its static instance to outside world. SingletonPatternDemo, our demo class will use SingleObject class to get a SingleObject object.
+
+# Builder pattern
+
+Builder pattern builds a complex object using simple objects and using a step by step approach. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+A Builder class builds the final object step by step. This builder is independent of other objects.
+
+# Factory pattern 
+Factory pattern is one of the most used design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
